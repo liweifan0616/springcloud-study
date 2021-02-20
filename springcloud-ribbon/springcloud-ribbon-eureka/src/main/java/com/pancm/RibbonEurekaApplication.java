@@ -16,9 +16,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @EnableEurekaServer
 @SpringBootApplication
-public class Application {
+public class RibbonEurekaApplication {
   public static void main(String[] args) {
-      SpringApplication.run(Application.class, args);
+      SpringApplication.run(RibbonEurekaApplication.class, args);
       System.out.println("注册中心服务启动...");
   }
 }
